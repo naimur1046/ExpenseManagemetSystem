@@ -31,28 +31,28 @@ const Sidebar = () => {
         </div>
         <nav className="space-y-6">
           <Link
-            to="/"
+            to="/pagemanagement"
             className="flex items-center text-lg font-medium text-gray-700 space-x-2"
           >
             <img src={DashboardLogo} alt="Dashboard Logo" className="w-6 h-6" />
             <span>Dashboard</span>
           </Link>
           <Link
-            to="/expenses"
+            to="/pagemanagement/expenses"
             className="flex items-center text-lg font-medium text-gray-700 space-x-2"
           >
             <img src={ExpenseLogo} alt="Expense Logo" className="w-6 h-6" />
             <span>Expenses</span>
           </Link>
           <Link
-            to="/budget"
+            to="/pagemanagement/budget"
             className="flex items-center text-lg font-medium text-gray-700 space-x-2"
           >
             <img src={TransactionLogo} alt="Budget Logo" className="w-6 h-6" />
             <span>Budget</span>
           </Link>
           <Link
-            to="/income"
+            to="/pagemanagement/income"
             className="flex items-center text-lg font-medium text-gray-700 space-x-2"
           >
             <img src={IncomeLogo} alt="Income Logo" className="w-6 h-6" />
