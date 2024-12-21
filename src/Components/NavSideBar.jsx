@@ -8,7 +8,7 @@ import ManLogo from "../assets/ManLogo.png";
 
 import SettingLogo from "../assets/SettingLogo.png";
 
-const SideBar = () => {
+const NavSideBar = () => {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
   const handleSettingsClick = () => {
@@ -185,4 +185,4 @@ const SettingsPopup = ({ onClose }) => {
   );
 };
 
-export default SideBar;
+export default NavSideBar;
