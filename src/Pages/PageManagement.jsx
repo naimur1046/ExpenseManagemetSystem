@@ -1,7 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Dashboard from "../Components/Dashboard";
-import Sidebar from "../Components/SideBar";
 import ExpnenseDetailsCombine from "../Components/ExpenseDetailsCombine";
 import BudgetDetailsCombine from "../Components/BudgetDetailsCombine";
 import IncomeDetailsCombine from "../Components/IncomeDetailsCombine";
