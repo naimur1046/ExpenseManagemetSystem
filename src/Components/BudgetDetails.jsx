@@ -3,29 +3,32 @@ import DeveloperLogo from "../assets/DeveloperLogo.png";
 import GlobeLogo from "../assets/GlobeLogo.png";
 import TeachingLogo from "../assets/TeachingLogo.png";
 import YoutubeLogo from "../assets/YoutubeLogo.png";
+import InstituteLogo from "../assets/InstituteLogo.png";
+import RentLogo from "../assets/RentLogo.png";
+import FoodLogo from "../assets/FoodLogo.png";
 
 const BudgetDetails = () => {
   const incomeData = [
     {
-      name: "Freelance",
-      description: "Freelance projects earnings",
+      name: "Mess Rent",
+      description: "This is my monthly cost",
       amount: "$1500",
       date: "2024-12-01",
-      logo: GlobeLogo,
+      logo: RentLogo,
     },
     {
-      name: "Shopify",
-      description: "Teaching Salary",
+      name: "Food",
+      description: "This is my regular cost",
       amount: "$2000",
       date: "2024-12-05",
-      logo: TeachingLogo,
+      logo: FoodLogo,
     },
     {
-      name: "YouTube Adsense",
+      name: "Instutional Cost",
       description: "Earnings from video ads",
       amount: "$800",
       date: "2024-12-10",
-      logo: YoutubeLogo,
+      logo: InstituteLogo,
     },
     {
       name: "Developer Salary",

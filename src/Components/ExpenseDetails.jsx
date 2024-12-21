@@ -3,37 +3,41 @@ import DeveloperLogo from "../assets/DeveloperLogo.png";
 import GlobeLogo from "../assets/GlobeLogo.png";
 import TeachingLogo from "../assets/TeachingLogo.png";
 import YoutubeLogo from "../assets/YoutubeLogo.png";
+import EducationCostLogo from "../assets/EducationCostLogo.png";
+import ExtraCostLogo from "../assets/ExtraCostLogo.png";
+import MedicineCostLogo from "../assets/MedicineCostLogo.png";
+import RentCostLogo from "../assets/RentLogo.png";
 
 const ExpenseDetails = () => {
   // Data array containing details for each income item
   const incomeData = [
     {
-      name: "Freelance",
-      description: "Freelance projects earnings",
+      name: "Education Cost",
+      description: "This is the basic cost",
       amount: "$1500",
       date: "2024-12-01",
-      logo: GlobeLogo,
+      logo: EducationCostLogo,
     },
     {
-      name: "Shopify",
-      description: "Teaching Salary",
+      name: "Medicine Cost",
+      description: "I was ill for 10 days",
       amount: "$2000",
       date: "2024-12-05",
-      logo: TeachingLogo,
+      logo: MedicineCostLogo,
     },
     {
-      name: "YouTube Adsense",
-      description: "Earnings from video ads",
+      name: "Extra Cost",
+      description: "There are some cost which is over calculation",
       amount: "$800",
       date: "2024-12-10",
-      logo: YoutubeLogo,
+      logo: ExtraCostLogo,
     },
     {
-      name: "Developer Salary",
-      description: "Monthly software developer salary",
+      name: "Rent Cost",
+      description: "This is very simple cost",
       amount: "$3000",
       date: "2024-12-15",
-      logo: DeveloperLogo,
+      logo: RentCostLogo,
     },
   ];
 
