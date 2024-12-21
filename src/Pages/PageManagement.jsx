@@ -4,11 +4,12 @@ import Dashboard from "../Components/Dashboard";
 import ExpnenseDetailsCombine from "../Components/ExpenseDetailsCombine";
 import BudgetDetailsCombine from "../Components/BudgetDetailsCombine";
 import IncomeDetailsCombine from "../Components/IncomeDetailsCombine";
+import SideBar from "../Components/SideBar";
 
 const PageManagement = () => {
   return (
     <div className="flex flex-row w-full p-8 gap-5 bg-pink-50">
-      <Sidebar />
+      <SideBar />
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="expenses" element={<ExpnenseDetailsCombine />} />
